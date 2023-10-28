@@ -12,7 +12,7 @@ import streamlit as st
 def load_data():
 	# Load the Adult Income dataset into DataFrame.
 
-	df = pd.read_csv('census-data.csv', header=None)
+	df = pd.read_csv('adult.csv', header=None)
 	df.head()
 
 	# Rename the column names in the DataFrame. 
