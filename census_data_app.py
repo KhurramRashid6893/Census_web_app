@@ -150,7 +150,11 @@ if "Count Plot" in plot_list:
     ax.set_title("Workclass Distribution by Income Group")
     ax.tick_params(axis="x", rotation=45)
     st.pyplot(fig)
-
+st.sidebar.markdown("---")
+st.sidebar.markdown(
+    "**📘 Note: " 
+    "These projects were created during my learning journey at **WhiteHat Jr**. "
+)
 # --------------------------------------------------
 # Footer
 # --------------------------------------------------
