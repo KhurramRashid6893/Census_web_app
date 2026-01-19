@@ -1,4 +1,4 @@
-# census_app.py
+# census_app.py 
 # Streamlit Census Data Visualization App
 
 import numpy as np
